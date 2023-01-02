@@ -124,3 +124,27 @@
             top: -1000px;
         }
     }
+
+    /*Main sytle sections CSS */
+    .main {
+        background-color: rgb(235, 243, 235);
+    }
+
+    .main__container {
+        display: flexbox;
+        align-items: center;
+        justify-self: center;
+        margin: 0 auto;
+        height: 75vh;
+        background-color: rgb(235, 243, 235);
+        z-index: 1;
+        width: 60%;
+        max-width: 1300px;
+        padding: 0 45px;
+    }
+
+    .main__content h1 {
+        font-size: 4rem;
+        background-color: white;
+        background-image: -o-linear-gradient(to top,  #fdfa24 0%, #c4b818 100%);
+    }
