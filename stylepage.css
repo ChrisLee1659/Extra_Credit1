@@ -7,14 +7,14 @@
 
 .navbar {
     background: #03c20d;
-    height: 80px;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
     position: sticky;
     top: 0;
-    z-index: 999; /*this is to keep the havbar above all of the other content not matter what*/
+    z-index: 999; /*this is to keep the navbar above all of the other content not matter what*/
 }
 
 /*this section is modifying the display sizing of the nav bar...i did not come up with these settings on my own */
@@ -31,8 +31,8 @@
 
 #navbar__logo{
     background-color: #ff8177;
-    /*trying to mimic John Deere colors here*/
-    background-image: linear-gradient(to top, #fdfa24 0%, #bbb019 100%);
+    /*trying to mimic John Deere colors here.  this fades the color scheme from top to bottom*/
+    background-image: linear-gradient(to top, #fdfa24 0%, #c4b818 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -89,8 +89,8 @@
     border: #ff0844;
     outline: none;
     border-radius: 4px;
-    background: #607771;
-    color: #fff; 
+    background: #101111;
+    color: rgb(252, 248, 248); 
    }
 
    .button:hover {
